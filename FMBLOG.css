@@ -1,0 +1,960 @@
+@font-face {
+    font-family: "Koz Go Pr6 N";
+    src: url(./KozGoPr6N-Regular.otf);
+}
+@font-face{
+    font-family: "Tahoma";
+    src: url(./Tahoma.ttf)
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.top-img{
+    background-image: url("top.png") ;
+    background-size: cover;
+    height: 130px;
+    position: relative;
+}
+.top{
+    display: block;
+    z-index: 1;
+    width: 1003px;
+    height: 135px;
+    margin-left: 150px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: inset -0.518px -1.932px 0px rgba(255,255,255,0.75);
+    background-image: linear-gradient(0deg, #d5d5d5 0%, #ffffff 14%, #d5d5d5 60%, #ffffff 100%);
+    border: 1px solid #c1c1c1;
+}
+.top_nav{
+    display: flex;
+}
+.top_nav .logo{
+    float: left;
+    margin-left: 50px;
+    margin-top: -35px;
+    width: 210px;
+    height: 140px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #ffffff;
+}
+.navAd{
+    margin: 10px;
+    float: left;
+    width: 728px;
+    height: 90px;
+    filter: drop-shadow(0.5px 0.866px 0px #ffffff);
+    box-shadow: inset 1px 1.732px 2px rgba(0,0,0,0.24);
+    background-color: #e4e4e4;
+}
+.navAd h2{
+    margin-top: -10px;
+    text-align: center;
+    opacity: 0.502;
+    font-size: 43px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+}
+.logo h2{
+    padding-top: 10px;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #00c3e4;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+}
+.logo span{
+    opacity: 0.502;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+.navBar{
+    margin:10px;
+    display: flex;
+}
+.navBar .navItm{
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 55px;
+    height: 25px;
+    color: black;
+    font-family: "Koz Go Pr6 N";
+}
+.navBar .navItm:nth-child(2){
+    width: 85px;
+}
+.navBar .navItm:nth-child(5){
+    width: 85px;
+}
+.navBar .navItm:nth-child(9){
+    width: 85px;
+}
+.navBar .navItm:hover{
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+}
+.section{
+    width: 100%;
+    height: 644px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #006896;
+}
+.section1{
+    position: relative;
+    float: left;
+    width: 66.666%; 
+    z-index: 1;
+}
+.section1 img{
+    width: 670px;
+    height: 270px;
+    margin-left: 150px;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: block;
+    z-index: 1;
+}
+.img_txt1{
+    position: absolute;
+    background-color: black;
+    opacity: 0.800;
+    top: 59%; 
+    left: 17.7%; 
+    padding: 10px 20px; 
+    width: 631px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.img_txt1 h2{
+    font-size: 19px;
+    color: #00c3e4;
+    font-family: "Koz Go Pr6 N";
+}
+.img_txt1 p{
+    width: 619px;
+    height: 39px;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Tahoma";
+}
+.img_txt2{
+    position: absolute;
+    z-index: 0;
+    width: 671px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: #0087c2;
+    top: 59%; 
+    left: 17.7%;
+}
+.s1_txt_container{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.s1_txt_container img{
+    border-radius: 5px;
+    width: 53px;
+    height: 53px;
+}
+.l_ar{
+    position: relative;
+    float: left;
+    left: 120px;
+    top: 50px;
+    width: 27px;
+    height: 27px;
+    border-radius: 14px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #074a75;
+    border: 1px solid #006fa0;
+}
+.l_ar img{
+    position: relative;
+    left: -145px;
+    top: -20px;
+    width: 18px;
+    height: 18px;
+}
+.r_ar{
+    position: relative;
+    float: right;
+    left: 90px;
+    top: 50px;
+    width: 27px;
+    height: 27px;
+    border-radius: 14px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #074a75;
+    border: 1px solid #006fa0;
+}
+.r_ar img{
+    position: relative;
+    left: -145px;
+    top: -20px;
+    width: 18px;
+    height: 18px;
+}
+.txt1,.txt2{
+    position: relative;
+    display: grid;
+    left: 10px;
+    top: 10px;
+}
+.txt2{
+    left: 90px;
+    float: right;
+}
+.txt1 h4,.txt2 h4{
+    font-size: 12px;
+    color: #16ebfe;
+    font-weight: bold;
+    font-family: "Arial";
+    width: 140px;
+    height: fit-content;
+}
+.txt1 p,.txt2 p{
+    position: relative;
+    top: -25px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Arial"; 
+}
+.txt1 .t2,.txt2 .t2{
+    position: relative;
+    margin-top: -10px;
+    line-height: 15px;
+    opacity: 0.800;
+    width: 205px;
+    height: 39px;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: "Tahoma";
+}
+.btns{
+    display: flex;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+}
+.btns img{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section2{
+    float: left;
+    width: 33.333%;
+    margin-top: 25px;
+    position: relative;
+}
+.right_txt_container{
+    position: relative;
+    display: grid;
+}
+.st2{
+    display: flex;
+}
+.st2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.right_txt_container p{
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    filter: drop-shadow(-0.5px -0.866px 0px rgba(0,0,0,0.3));
+}
+.right_txt_container span{
+    color: #00c3e3;
+}
+.right_txt_container img{
+    top: -20px;
+}
+.st2 p{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    opacity: 0.700;
+    width: 293px;
+    height: 123px;
+    line-height: 16px;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Tahoma";
+}
+.section2a{
+    position: absolute;
+    width: 341px;
+    height: 111px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+}
+.section2a h2{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.section2b{
+    position: relative;
+    width: 341px;
+    height: 228px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #f8f5f5;
+    margin-top: 50px;
+}
+.inner_container_2b{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+    width: 322px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #e4e4e4;
+}
+.inner_s1{
+    opacity: 0.800;
+    display: flex;
+    width: 304px;
+    height: 75px;
+    border-radius: 5px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #ffffff;
+    margin: 10px;
+}
+.inner_s1 img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 53px;
+    height: 53px;
+}
+.inner_s1 p,.inner_s2 p{
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-size: 11px;
+    color: #00587e;
+    font-weight: bold;
+    font-family: "Tahoma";
+}
+.inner_s1 span, .inner_s2 span{
+    font-size: 11px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Tahoma";
+}
+.inner_s2{
+    display: grid;
+    opacity: 0.800;
+    width: 303px;
+    height: 71px;
+    border-radius: 5px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #ffffff;
+    margin: 10px;
+}
+.inner_s2 img{
+    padding-right: 15px;
+}
+.inners2 span img{
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+.v2{
+    top: 15px;
+    left: 170px;
+    position: absolute;
+    z-index: 4;
+}
+.vol{
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 115px;
+    z-index: 5;
+}
+.ins2a{
+    opacity: 0.200;
+    position: absolute;
+    width: 308px;
+    height: 45px;
+    border-radius: 5px;
+    top: 50px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #bdbdbd;
+}
+.slider{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 253px;
+    height: 8px;
+    border-radius: 4px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #d0cccc;
+    z-index: 4;
+}
+.s2{
+    left: 40px;
+    top: -3px;
+    position: absolute;
+    z-index: 5;
+    width: 57px;
+    height: 12px;
+    border-radius: 5px;
+    box-shadow: inset -1.176px -1.618px 0px rgba(255,255,255,0.54);
+    background-image: linear-gradient(0deg, #00c3e3 0%, #0087c1 100%);
+    border: 1px solid rgba(0,135,194,0.91);
+}
+.vol input{
+    width: 8px;
+    height: 8px;
+}
+.b_section{
+    margin-left: 150px;
+    position: absolute;
+    margin-top: -100px;
+    width: 651px;
+    height: 1500px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #ffffff;
+    display: inline-block;
+    z-index: 1;
+    padding-left: 20px;
+}
+.bin{
+    float: left;
+    width: 66.666%;
+    position: relative;
+}
+.bin1 p{
+    font-size: 19px;
+    color: #000000;
+    font-family: "Koz Go Pr6 N";
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.inside_nav{
+    width: 618px;
+    height: 59px;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #e9e9e9;
+    margin: 10px;
+}
+.inav_itm:first-child{
+    width: 81px;
+    height: 59px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #e9e9e9;
+    display: inline-block;
+    padding-right: 20px;
+    font-family: "Open Sans";
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    font-weight: 600;
+}
+.inav_itm{
+    width: 81px;
+    height: 59px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #e9e9e9;
+    display: inline-block;
+    padding-right: 20px;
+    font-family: "Open Sans";
+    text-align: left;
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    font-weight: 600;
+}
+
+.inav_itm:hover{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+}
+.inav_itm p{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Koz Go Pr6 N";
+}
+.row1, .row2{
+    display: inline-block;
+}
+.col1, .col2, .col3{
+    display: inline-block;
+    padding: 15px;
+}
+.row1 img, .row2 img{
+    display: block;
+}
+.row1 p, .row2 p{
+    margin-left: -30px;
+    float: left;
+    text-align: left;
+    width: 160px;
+    height: 57px;
+    font-size: 11px;
+    color: #000000;
+    font-family: "Tahoma";
+    display: block;
+}
+.row1 button, .row2 button{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+    float: right;
+    margin-top: 8px;
+}
+.row1 button span, .row2 button span{
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.bin2{
+    display: inline-block;
+}
+.box1, .box2{
+    display: inline-block;
+    margin: 20px;
+    width: 251px;
+    height: 250px;
+    filter: drop-shadow(0.5px 0.866px 0px #ffffff);
+    box-shadow: inset 1px 1.732px 2px rgba(0,0,0,0.24);
+    background-color: #e4e4e4;
+}
+.box1 h3, .box2 h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+}
+.box1 h1, .box2 h1{
+    font-size: 56px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+}
+.box1 h2, .box2 h2{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    text-align: center;
+}
+.body_container{
+    width: 100%;
+}
+.adblock{
+    margin-top: 10px;
+    float: right;
+    width: 33.333%;
+    position: relative;
+}
+.ad2{
+    opacity: 0.800;
+    width: 341px;
+    height: 340px;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #0087c2;
+}
+.ad2 p{
+    text-align: right;
+    padding-right: 10px;
+    color: #ffffff;
+}
+.ad2 img{
+    margin: 20px;
+    margin-top: 0px;
+}
+.ad3{
+    margin-top: 20px;
+    opacity: 0.800;
+    width: 341px;
+    height: 452px;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #0087c2;
+}
+.ad3 img{
+    margin: 13px;
+    margin-top: 0px;
+}
+.ad3 .t-txt{
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+    margin: 10px;
+}
+.ad3 span:nth-child(odd){
+    font-size: 19px;
+    color: #063984;
+    font-family: "Koz Go Pr6 N";
+}
+.ad3 span:nth-child(even){
+    font-size: 19px;
+    color: #5bcdfe;
+    font-family: "Koz Go Pr6 N";
+}
+.twitter{
+    margin-top: 45px;
+    opacity: 0.800;
+    width: 341px;
+    height: 182px;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #0087c2;
+}
+.twitter img:first-child{
+    margin-top: -20px;
+}
+.twit1{
+    margin: 15px;
+    width: 307px;
+    height: 50px;
+    border-radius: 5px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #ffffff;
+    z-index: 1;
+}
+.twit1 p{
+    text-align: center;
+}
+.twitter .img2{
+    margin-left: 220px;
+    z-index: 2;
+}
+.POM{
+    width: 623px;
+    height: 124px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0483bb;
+    border: 1px solid #006fa0;
+}
+.pom2{
+    width: 590px;
+    height: 124px;
+    border-radius: 15px;
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #329ecd;
+    display: inline-block;
+}
+.pom_img{
+    width: 263px;
+    height: 124px;
+    border-radius: 15px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #ffffff;
+    display: block;
+}
+.pom_img img{
+    width: 263px;
+    height: 124px;
+    border-radius: 15px;
+}
+.pom_txt{
+    position: absolute;
+    left: 45%;
+    float: right;
+}
+.pom_txt p{
+    width: 261px;
+    height: 124px;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Tahoma";
+}
+.pom_txt h3{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Tahoma";
+}
+.s3col1{
+    position: relative;
+    display: block;
+}
+.s3col1 p{
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.s3col1 img{
+    position: absolute;
+}
+.s3col1 p{
+    font-size: 19px;
+    color: #000000;
+    font-family: "Koz Go Pr6 N";
+
+}
+.s3col1 span{
+    font-size: 19px;
+    color: #006b98;
+    font-family: "Koz Go Pr6 N";
+}
+.arrow{
+    position: absolute;
+    margin-left: 60px;
+}
+.arrow1{
+    position: absolute;
+    top: 30px;
+}
+.s3block{
+    width: 290px;
+    height: 337px;
+    border-radius: 15px;
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.19);
+    background-color: #f3f3f3;
+    padding-top: 5px;
+}
+.inline{
+    display: inline-block;
+}
+.section3{
+    z-index: 1;
+    width: 50%;
+    float: left;
+}
+.section3_container{
+    vertical-align: top;
+    display: flex;
+    width: 50%;
+}
+.section3a{
+    margin-left: 175px;
+    z-index: 1;
+    float: left;
+}
+.s3row1,.s3row2,.s3row3{
+    margin: 15px;
+    width: 260px;
+    height: 81px;
+    border-radius: 5px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #f7f7f7;
+}
+.s3row1 p, .s3row2 p, .s3row3 p{
+    padding: 10px;
+    font-size: 12px;
+    color: #000000;
+    font-family: "Tahoma";
+}
+.s3row1 p span, .s3row2 p span, .s3row3 p span{
+    font-size: 12px;
+    color: #0483bb;
+    font-family: "Tahoma";
+}
+.s3row1 img, .s3row2 img, .s3row3 img{
+    padding-left: 7px;
+    margin-top: 30px;
+    position: absolute;;
+}
+.s3row1 #down,.s3row2 #down, .s3row3 #down{
+    margin-top: -15px;
+    font-size: 11px;
+    line-height: 32px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.ar{
+    top: 40px;
+    left: 56%;
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+}
+.ar img{
+    top: -20px;
+    border: 1px solid rgba(0,135,194,0.91);
+    margin-left: 2px;
+}
+.download_btn{
+    top: 40px;
+    left: 68%;
+    position: absolute;
+    width: 74px;
+    height: 28px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+}
+.download_btn p{
+    top: -15px;
+    position: absolute;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.section4{
+    z-index: 0;
+    position: absolute;
+    top: 2100px ;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #006896;
+}
+.s3row1a{
+    width: 250px;
+    height: 41px;
+    border-radius: 5px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0,0,0,0.43);
+    background-color: #f7f7f7;
+    margin: 15px;
+}
+.s3row1a p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #0483bb;
+    font-weight: bold;
+    font-family: "Tahoma";
+}
+.option{
+    display: block;
+}
+.option input{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0483bb;
+    border: 1px solid #006fa0;
+}
+.option label{
+    font-size: 12px;
+    line-height: 36px;
+    color: #000000;
+    font-family: "Arial";
+}
+.option input[type=submit]{
+    width: 64px;
+    height: 28px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1.732px 0px rgba(255,255,255,0.58);
+    background-color: #0087c2;
+    border: 1px solid #006fa0;
+    color: white;
+}
+.fts1{
+    
+    margin: 100px;
+    margin-left: 270px;
+    opacity: 0.502;
+    width: 751px;
+    height: 115px;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.24));
+    box-shadow: inset 1px 1.732px 2px rgba(0,0,0,0.24);
+    background-color: #006896;
+}
+.inf1s1{
+    text-align: center;
+    position: absolute;
+    margin: 10px;
+    width: 728px;
+    height: 90px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255,255,255,0.24));
+    box-shadow: inset 1px 1.732px 2px rgba(0,0,0,0.24);
+    background-color: #0273a5;
+}
+.inf1s1 h2{
+    margin-top: -5px;
+    opacity: 0.149;
+    font-size: 43px;
+    color: #ffffff;
+    font-family: "Koz Go Pr6 N";
+}
+.f1s2{
+    opacity: 0.502;
+    width: 100%;
+    height: 50px;
+    background-color: #004e71;
+}
+.f1s3{
+    width: 100%;
+    height: 50px;
+    background-color: #004e71;
+}
+.bottom_nav{
+    position: relative;
+    display: flex;
+    left: 200px;
+}
+.bottom_nav .navItm{
+    margin-left: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Koz Go Pr6 N";
+}
+.f1s3 p{
+    position: absolute;
+    left: 100px;
+    opacity: 0.502;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: "Arial";
+}
